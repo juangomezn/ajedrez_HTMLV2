@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgb(255, 255, 255),rgb(143, 44, 44));
+    height: 100vh;
+}
+
+.Tablero{
+    width: 560px;
+    height: 560px;
+    margin: 40px auto;
+    box-shadow: 0px 0px 6px 8px rgb(255, 1, 1),
+                0px 0px 0px 16px rgb(255, 255, 255);
+    box-sizing: content-box;
+    cursor:pointer;
+}
+
+.Tablero .tab-fila{
+    display: flex;
+}
+
+.Tablero .tab-fila .tab-col{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    user-select: none;
+    font-size: 55px;
+    color: rgb(121, 22, 22);
+    text-shadow: 0px .5px rgb(255, 0, 0);
+}
+
+.Tablero .tab-fila .black{
+    background-color: rgb(230, 152, 152);
+
+}
